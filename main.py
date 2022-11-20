@@ -7,7 +7,7 @@ playsound("short.mp3")
 
 on = True
 while on:
-    message = str(input("Type in your message to hear it in Morse code: ")).lower().replace(" ", "_")
+    message = str(input("Type in your message to hear it in Morse code: (type quit_code to exit) ")).lower().replace(" ", "_")
     if message == "quit_code":
         on = False
         continue
